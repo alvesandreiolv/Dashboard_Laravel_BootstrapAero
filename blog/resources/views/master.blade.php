@@ -57,9 +57,9 @@
 
                 </div>
 
-                <a class="nav-link text-white" href="/Dashboard_Laravel_BootstrapAero"><i class="fa fa-home"></i> Início</a>
-                <a class="nav-link text-white" href="cadastrar"><i class="fa fa-plus"></i> Cadastrar novo</a>
-                <a class="nav-link text-white" href="ver" ><i class="fa fa-search"></i> Ver cadastros</a>
+                <a class="nav-link text-white bg-aeroblack active" href="/Dashboard_Laravel_BootstrapAero"><i class="fa fa-home"></i> Início</a>
+                <a class="nav-link text-white bg-aeroblack" href="cadastrar"><i class="fa fa-plus"></i> Cadastrar novo</a>
+                <a class="nav-link text-white bg-aeroblack" href="ver" ><i class="fa fa-search"></i> Ver cadastros</a>
 
               </div>
 
