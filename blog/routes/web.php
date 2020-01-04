@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
+});
+
+Route::get('/cadastrar', function () {
+    return view('cadastrar');
+});
+
+Route::get('/ver', function () {
+    return view('ver');
 });
