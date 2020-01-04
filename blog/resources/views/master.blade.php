@@ -57,9 +57,9 @@
 
                 </div>
 
-                <a class="nav-link text-white bg-aeroblack active" href="/Dashboard_Laravel_BootstrapAero"><i class="fa fa-home"></i> Início</a>
-                <a class="nav-link text-white bg-aeroblack" href="cadastrar"><i class="fa fa-plus"></i> Cadastrar novo</a>
-                <a class="nav-link text-white bg-aeroblack" href="ver" ><i class="fa fa-search"></i> Ver cadastros</a>
+                <a class="nav-link text-white bg-aeroblack <?php if (Route::current()->uri() === '/') { echo 'active'; } ?>" href="/Dashboard_Laravel_BootstrapAero"><i class="fa fa-home"></i> Início</a>
+                <a class="nav-link text-white bg-aeroblack <?php if (Route::current()->uri() === 'cadastrar') { echo 'active'; } ?>" href="cadastrar"><i class="fa fa-plus"></i> Cadastrar novo</a>
+                <a class="nav-link text-white bg-aeroblack <?php if (Route::current()->uri() === 'ver') { echo 'active'; } ?>" href="ver" ><i class="fa fa-search"></i> Ver cadastros</a>
 
               </div>
 
@@ -80,13 +80,7 @@
           <ul class="nav nav-tabs ">
 
             <li class="nav-item">
-              <a class="nav-link bg-aeroblack active " href="<?php if (Route::current()->uri() === '/') {echo '/Dashboard_Laravel_BootstrapAero'; } else { echo Route::current()->uri(); } ?>"><?php
-              if (Route::current()->uri() === '/') {
-                echo 'Início';
-              } else {
-                echo ucwords(Route::current()->uri());
-              } ?>
-            </a>
+              <a class="nav-link bg-aeroblack active " href="<?php if (Route::current()->uri() === '/') {echo '/Dashboard_Laravel_BootstrapAero'; } else { echo Route::current()->uri(); } ?>"><?php if (Route::current()->uri() === '/') { echo 'Início'; } else { echo ucwords(Route::current()->uri()); } ?></a>
           </li>
 
         </ul>
