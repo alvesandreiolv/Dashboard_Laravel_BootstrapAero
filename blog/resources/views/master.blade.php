@@ -32,7 +32,7 @@
 
       <div class="col-lg-3">
 
-        <div class="list-group">
+        <div class="list-group" style="padding-bottom:15px;">
 
           <div class="card text-white bg-aeroblack">
 

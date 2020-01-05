@@ -5,9 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-/* OS ESTILOS PERSONALIZADOS ESTÃO NO FIM DESTE ARQUIVO | THE PERSONALIZED STYLES ARE AT THE BOTTOM OF THIS PAGE */
+ /* OS ESTILOS PERSONALIZADOS ESTÃO NO FIM DESTE ARQUIVO | THE PERSONALIZED STYLES ARE AT THE BOTTOM OF THIS PAGE */
 
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -10224,98 +10224,161 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+
+
 
 /*ESTILOS PERSONALIZADOS | PERSONALIZED STYLES */
 
 .nav-tabs .nav-item {
-
   margin-bottom: 0px;
-
 }
 
- .nav-tabs{
-
+.nav-tabs{
   border-bottom: 1px !important;
-
 }
 
 /*AEROBLACK ABAIXO | AEROBLACK BELLOW*/
 
 .bg-aeroblack {
-
   background-color: rgba(0, 0, 0, 0.2);
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.bg-aeroblack{
-
   background-color: transparent;
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.bg-aeroblack:hover{
-
   background-color: rgba(0, 0, 0, 0.1);
-
 }
 
 .nav-link.active.bg-aeroblack{
-  
   background-color: rgba(0, 0, 0, 0.2);
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.active.bg-aeroblack:hover{
-  
   background-color: rgba(0, 0, 0, 0.1);
   border: 0px !important;
   color:white;
+}
 
+input[type="text"].bg-aeroblack{
+  color:white;
+}
+
+input[type="text"].bg-aeroblack:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color:white;
+}
+
+input[type="text"].bg-aeroblack:focus{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.bg-aeroblack::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.bg-aeroblack:-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.bg-aeroblack::-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.custom-select.bg-aeroblack {
+  color: white;
+  opacity: 0.7;
+}
+
+.custom-select.bg-aeroblack:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  opacity: 1;
+}
+
+.custom-select.bg-aeroblack option{
+  background-color: black;
+  color: white;
 }
 
 /*AEROWHITE ABAIXO | AEROWHITE BELLOW*/
 
 .bg-aerowhite {
-
   background-color: rgba(255, 255, 255, 0.2);
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.bg-aerowhite{
-
   background-color: transparent;
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.bg-aerowhite:hover{
-
   background-color: rgba(255, 255, 255, 0.1);
-
 }
 
 .nav-link.active.bg-aerowhite{
-  
   background-color: rgba(255, 255, 255, 0.2);
   border: 0px !important;
   color:white;
-
 }
 
 .nav-link.active.bg-aerowhite:hover{
-  
   background-color: rgba(255, 255, 255, 0.1);
   border: 0px !important;
   color:white;
+}
 
+input[type="text"].bg-aerowhite{
+  color:black;
+}
+
+input[type="text"].bg-aerowhite:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  color:black;
+}
+
+input[type="text"].bg-aerowhite:focus{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:black;
+}
+
+.bg-aerowhite::-webkit-input-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+.bg-aerowhite:-moz-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+.bg-aerowhite::-moz-placeholder {
+  color: black;
+  opacity: 0.5;
+}
+
+.custom-select.bg-aerowhite {
+  color: black;
+  opacity: 0.7;
+}
+
+.custom-select.bg-aerowhite:focus {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  color: black;
+  opacity: 1;
+}
+
+.custom-select.bg-aerowhite option{
+  background-color: white;
+  color: black !important;
 }
