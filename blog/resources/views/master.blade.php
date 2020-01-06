@@ -6,21 +6,11 @@
 
   <link rel="stylesheet" href="blog/public/bootstrapaero/css/bootstrap.css">
 
+  <link rel="stylesheet" href="blog/public/personal.css">
+
   <link rel="stylesheet" href="blog/public/font-awesome-4.7.0/css/font-awesome.css">
 
   <script src="blog/public/jquery/jquery-3.4.1.js"></script>
-
-  <style type="text/css">
-
-    body {
-      background-image: url(blog/public/images/background.jpg);
-      background-color: grey;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-      background-position: center;
-    }
-
-  </style>
 
 </head>
 

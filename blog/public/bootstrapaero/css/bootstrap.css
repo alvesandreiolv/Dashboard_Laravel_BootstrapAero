@@ -10225,8 +10225,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-
-
 /*ESTILOS PERSONALIZADOS | PERSONALIZED STYLES */
 
 .nav-tabs .nav-item {
@@ -10310,6 +10308,19 @@ input[type="text"].bg-aeroblack:focus{
   color: white;
 }
 
+.bg-aeroblack.table thead th {
+  background-color: rgba(0, 0, 0, 0.2);
+  border:0px;
+}
+
+.bg-aeroblack.table th {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.bg-aeroblack.table td {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 /*AEROWHITE ABAIXO | AEROWHITE BELLOW*/
 
 .bg-aerowhite {
@@ -10381,4 +10392,17 @@ input[type="text"].bg-aerowhite:focus{
 .custom-select.bg-aerowhite option{
   background-color: white;
   color: black !important;
+}
+
+.bg-aerowhite.table thead th {
+  background-color: rgba(255, 255, 255, 0.2);
+  border:0px;
+}
+
+.bg-aerowhite.table th {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.bg-aerowhite.table td {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
